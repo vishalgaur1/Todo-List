@@ -1,0 +1,33 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+
+}
+
+.styled-text {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+    color: green;
+    margin-bottom: 5px;
+}
+
+.new{
+    margin: 0 auto;
+    /* height: 20vh; */
+    /* width: 400px;*/
+    margin-top: 200px; 
+    margin-left: 110px;
+    text-align: center;
+}
+.table {
+    margin: 0 auto;
+    /* height: 20vh; */
+    width: 400px;
+    margin-left: 40%;
+    margin-top: 50px;
+    text-align: center;
+}

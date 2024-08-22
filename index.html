@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <title>Todo List</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+  <div class="new">
+    <input type="text" placeholder="Add a Task" id="task">
+    <button onclick="addRow()">Add</button>
+  </div>
+
+ 
+    <table border='1' class="table">
+      <thead>
+          <tr>
+              <th>Task</th>
+              <th>Action</th>
+              <th>Remove</th>
+          </tr>
+      </thead>
+      <tbody id="taskList">
+          <!-- Tasks will be dynamically added here -->
+      </tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
